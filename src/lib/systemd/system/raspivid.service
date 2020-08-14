@@ -1,0 +1,10 @@
+[Unit]
+Description=raspivid
+After=network.target
+
+[Service]
+IgnoreSIGPIPE=false
+ExecStart=/usr/bin/camera-stream
+
+[Install]
+WantedBy=default.target

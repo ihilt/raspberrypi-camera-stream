@@ -1,0 +1,1 @@
+*/5 * * * * sudo systemctl start raspivid.service
